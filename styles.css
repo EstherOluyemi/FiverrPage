@@ -838,7 +838,7 @@ video{
         width: 14rem;
     }
 }
-@media (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 1440px){
     .box-container{
         grid-template-columns: repeat(7, 1fr);
         gap: 1rem;
@@ -856,11 +856,11 @@ video{
         width: 100%;
     }
     .grid-gallery img{
-        width: 19.5rem;
+        width: 18.5rem;
         height: 13.5rem;
     }
     .grid-galleryLarge img{
-        width: 19.5rem;
+        width: 18.5rem;
     }
     .grid-footer{
         grid-template-columns: repeat(5, 1fr);
