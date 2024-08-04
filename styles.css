@@ -838,3 +838,28 @@ video{
         width: 14rem;
     }
 }
+@media (min-width: 1025px) {
+    .boxes{
+        width: 8rem;
+    }
+    .grid-container2{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .grid-items2 h2{
+        width: 100%;
+    }
+    .grid-items2 p{
+        width: 100%;
+    }
+    .grid-gallery img{
+        width: 20.5rem;
+        height: 13.5rem;
+    }
+    .grid-galleryLarge img{
+        width: 20.5rem;
+    }
+    .grid-footer{
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 0.35rem;
+     }
+}
