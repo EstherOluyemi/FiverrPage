@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 90%;
-    height: 6rem;
+    height: 4rem;
 }
 .right{
     display: flex;
@@ -22,12 +22,12 @@ body{
     align-items: center;
 }
 .fiverr-logo{
-    height: 2.5rem;
+    height: 1.5rem;
 }
 .button1 button, .button2 button{
-    width: 9.5rem;
+    width: 5rem;
     height: 4rem;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 600;
     display: flex;
     align-items: center;
@@ -59,7 +59,7 @@ body{
 }
 .join-button{
     width: 5rem;
-    height: 3rem;
+    height: 2.5rem;
     border: 1px solid rgb(29,191,115);
     border-radius: 5px;
     font-size: 1.3rem;

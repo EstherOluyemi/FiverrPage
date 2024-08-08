@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    width: 95%;
+    height: 5rem;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.nav-list li{
+    list-style-type: none;
+    font-weight: 400;
+    color: rgb(98, 100, 106);  
+}
+.nav-list button{
+    color: #1dbf73;
+    background-color: white;
+    border: 1px solid #1dbf73;
+    border-radius: 3px;
+    padding: 7px 15px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.menu-bar, .join{
+    display: none;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+.search{
+    background-image: url("https://ln.run/JkG2Z");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 27.375rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.searchbar{
+    border: 1px solid red;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+.searchbar input{
+    border: none;
+    width: 100%;
+    margin-left: 0.5rem;
+}
+.searchbar span{
+    background-color: #003912;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.searchbar span svg{
+    font-size: 1rem;
+    
+}
+@media only screen and (max-width: 600px){
+    .nav-list{
+        display: none;
+    }
+    .join, .menu-bar{
+        display: flex;
+    }
+    hr{
+        margin: 0;
+    }
+   
+}
+@media only screen and (max-width:900px){
+    ul.nav-list li:not(:nth-child(5),:last-child) {
+        display: none;
+    }
+   
+    .nav-list button{
+        display: flex;
+    }
+    .search{
+        background-image: none;
+        background: linear-gradient(to bottom, #003912 0% , #0E7940 100% );
+        margin: 0;
+        width: 100%;
+    }
+}
